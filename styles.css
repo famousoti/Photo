@@ -1,0 +1,102 @@
+/* General styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #ffffbf;
+    
+}
+
+header {
+    background-color: #001F3F;
+    padding: 1
+    position: fixed;
+    width: 100%;
+    top: 0;
+    position: sticky;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 3;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #FFDAB9;
+}
+
+.hero img {
+    width: 100px;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.gallery-grid {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+
+}
+.grr{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    width: 100%;
+    max-width: 200px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    max-width: 200px;
+    justify-content: center;
+}
+
+/* Forms */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+input, textarea {
+    padding: 10px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.vid{
+    height: 200px;
+}
+
+footer {
+    text-align: center;
+    background-color: #2F4F4F;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+}
